@@ -9,6 +9,10 @@ resources
     *soap
         name:Soap
         desc:It's just soap
+    *holySoap
+        name:holy Soap|holy Soaps
+        desc:It's just soap, But its holy!
+    
 
 button
     *scrubb
@@ -40,4 +44,18 @@ Upgrades
         desc:2 hands are better then 1!<//><b>Effect:</b><.>increases cursor by 1+ per click
         cost:100 soap
         passive:increase wine yield of buttonBrewer by 1
-        req:50 soap
+        req:50
+button
+    *scrubb
+        name:Scrubb
+        desc:Click on the scrubb to get soap
+        on click:yield 1 soap
+
+Achievements
+    *TEMPLATE
+		on click:anim glow
+
+    *soapAchiev1
+        name:A new journey!
+        desc:Start your journey! and Achievements
+        req:1 soap
