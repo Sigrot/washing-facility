@@ -4,6 +4,11 @@ let's make a game!
     by:Psycho Apes
     created:27/12/2022
     updated:27/12/2022
+    
+resources
+    *soap
+        name:Soap|Soaps
+        desc:It's just soap
 
 Buildings
 	*TEMPLATE
@@ -17,8 +22,3 @@ button
         name:Scrubb
         desc:Click on the scrubb to get soap
         on click:yield 1 soap
-
-resources
-    *soap
-        name:Soap|Soaps
-        desc:It's just soap
