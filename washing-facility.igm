@@ -14,11 +14,12 @@ Resources
         desc:It's just soap, But its holy!
     
 
-Button
+Buttons
     *scrubb
         name:Scrubb
         desc:Click on the scrubb to get soap
         on click:yield 1 soap
+
 Buildings
 	*TEMPLATE
 		on click:anim glow
@@ -27,13 +28,13 @@ Buildings
         name:window washer
         desc:the perfect washer for the perfect starter!<//><b>Effect:</b><.>this makes 1 soap every 10 seconds.
         cost:15 soap
-        on tick:yield 1 soap
+        on tick:yield .1 soap
 
     *mop
         name:mop
         desc:sweep away!<//><b>Effect:</b><.>this makes 3 soap every 10 seconds.
         cost:75 soap
-        on tick:yield 3 soap
+        on tick:yield .3 soap
 
 Upgrades
 	*TEMPLATE
@@ -43,8 +44,15 @@ Upgrades
         name:hands for two
         desc:2 hands are better then 1!<//><b>Effect:</b><.>increases cursor by 1+ per click
         cost:100 soap
-        passive:increase wine yield of buttonBrewer by 1
-        req:50
+        passive:increase yield of scrubb by 1
+        req:50 soap
+
+    *scrubber
+        name:expensive scrubber
+        desc:now you will get 5 soap per click!<//><b>Effect:</b><.>increases cursor by 3+ per click
+        cost:250 soap
+        req:two
+        passive:increase yield of scrubb by 3
 
 Achievements
     *TEMPLATE
@@ -54,3 +62,8 @@ Achievements
         name:A new journey!
         desc:Start your journey! and Achievements
         req:1 soap
+
+CSS
+    #game {
+        background:grey;
+    }
