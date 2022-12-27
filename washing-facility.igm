@@ -5,5 +5,10 @@ let's make a game!
     created:27/12/2022
     updated:27/12/2022
 
-button
-    
+Buildings
+	*TEMPLATE
+		on click:anim glow
+ 
+	*washer|washers
+        name:window washer
+        desc:the perfect washer for the perfect starter!
