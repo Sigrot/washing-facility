@@ -7,7 +7,7 @@ let's make a game!
     
 resources
     *soap
-        name:Soap|Soaps
+        name:Soap
         desc:It's just soap
 
 button
