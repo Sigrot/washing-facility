@@ -10,6 +10,11 @@ resources
         name:Soap|Soaps
         desc:It's just soap
 
+button
+    *scrubb
+        name:Scrubb
+        desc:Click on the scrubb to get soap
+        on click:yield 1 soap
 Buildings
 	*TEMPLATE
 		on click:anim glow
@@ -21,7 +26,7 @@ Buildings
         on tick:yield 1 soap
         unlocked
 
-    *mop|mops
+    *mop
         name:mop
         desc:sweep away!<//><b>Effect:</b><.>this makes 3 soap every 10 seconds.
         cost:75 soap
@@ -32,14 +37,9 @@ Upgrades
 	*TEMPLATE
 		on click:anim glow
  
-    *two|two
+    *two
         name:hands for two
         desc:2 hands are better then 1!<//><b>Effect:</b><.>increases cursor by 1+ per click
         cost:100
         passive:increase wine yield of buttonBrewer by 1
         req:50
-button
-    *scrubb
-        name:Scrubb
-        desc:Click on the scrubb to get soap
-        on click:yield 1 soap
