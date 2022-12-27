@@ -5,7 +5,7 @@ Let's make a game!
     created:27/12/2022
     updated:27/12/2022
     
-resources
+Resources
     *soap
         name:Soap
         desc:It's just soap
@@ -14,11 +14,12 @@ resources
         desc:It's just soap, But its holy!
     
 
-button
+Buttons
     *scrubb
         name:Scrubb
         desc:Click on the scrubb to get soap
         on click:yield 1 soap
+
 Buildings
 	*TEMPLATE
 		on click:anim glow
@@ -56,6 +57,8 @@ button
         name:Scrubb
         desc:Click on the scrubb to get soap
         on click:yield 1 soap
+        passive:increase wine yield of buttonBrewer by 1
+        req:50
 
 Achievements
     *TEMPLATE
