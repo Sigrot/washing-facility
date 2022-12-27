@@ -9,6 +9,10 @@ resources
     *soap
         name:Soap|Soaps
         desc:It's just soap
+    *holySoap
+        name:holy Soap|holy Soaps
+        desc:It's just soap, But its holy!
+    
 
 Buildings
 	*TEMPLATE
@@ -43,3 +47,12 @@ button
         name:Scrubb
         desc:Click on the scrubb to get soap
         on click:yield 1 soap
+
+Achievements
+    *TEMPLATE
+		on click:anim glow
+
+    *soapAchiev1
+        name:a new journey!
+        desc:start your journey! and Achievements
+        req:1 soap
