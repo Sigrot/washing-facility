@@ -52,6 +52,7 @@ Upgrades
         desc:now you will get 5 soap per click!<//><b>Effect:</b><.>increases cursor by 3+ per click
         cost:250 soap
         req:two
+        passive:increase yield of scrubb by 3
 
 Achievements
     *TEMPLATE
