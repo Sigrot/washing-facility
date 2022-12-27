@@ -4,12 +4,17 @@ let's make a game!
     by:Psycho Apes
     created:27/12/2022
     updated:27/12/2022
+    
+resources
+    *soap
+        name:Soap|Soaps
+        desc:It's just soap
 
 Buildings
 	*TEMPLATE
 		on click:anim glow
  
-	*washer|washers
+	*washer
         name:window washer
         desc:the perfect washer for the perfect starter!<//><b>Effect:</b><.>this makes 1 soap every 10 seconds.
         cost:15 soap
