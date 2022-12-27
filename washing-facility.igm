@@ -12,3 +12,8 @@ Buildings
 	*washer|washers
         name:window washer
         desc:the perfect washer for the perfect starter!
+button
+    *scrubb
+        name:Scrubb
+        desc:Click on the scrubb to get soap
+        on click:yield 1 soap
