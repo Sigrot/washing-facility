@@ -61,3 +61,8 @@ Achievements
         name:A new journey!
         desc:Start your journey! and Achievements
         req:1 soap
+
+CSS
+    #game {
+        background:grey;
+    }
