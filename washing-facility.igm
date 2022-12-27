@@ -44,7 +44,7 @@ Upgrades
         name:hands for two
         desc:2 hands are better then 1!<//><b>Effect:</b><.>increases cursor by 1+ per click
         cost:100 soap
-        passive:increase wine yield of scrubb by 1
+        passive:increase yield of scrubb by 1
         req:50 soap
 
     *scrubber
