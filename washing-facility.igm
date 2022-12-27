@@ -14,11 +14,12 @@ Resources
         desc:It's just soap, But its holy!
     
 
-Button
+Buttons
     *scrubb
         name:Scrubb
         desc:Click on the scrubb to get soap
         on click:yield 1 soap
+
 Buildings
 	*TEMPLATE
 		on click:anim glow
