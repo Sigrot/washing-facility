@@ -34,7 +34,7 @@ Buildings
         name:mop
         desc:sweep away!<//><b>Effect:</b><.>this makes 3 soap every 10 seconds.
         cost:75 soap
-        on tick:yield 3 soap
+        on tick:yield .3 soap
 
 Upgrades
 	*TEMPLATE
