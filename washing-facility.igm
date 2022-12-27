@@ -9,7 +9,7 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
  
-	*washer|washers
+	*washer
         name:window washer
         desc:the perfect washer for the perfect starter!
 button
@@ -17,3 +17,8 @@ button
         name:Scrubb
         desc:Click on the scrubb to get soap
         on click:yield 1 soap
+
+resources
+    *soap
+        name:Soap|Soaps
+        desc:It's just soap
