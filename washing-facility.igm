@@ -52,13 +52,6 @@ Upgrades
         desc:now you will get 5 soap per click!<//><b>Effect:</b><.>increases cursor by 3+ per click
         cost:250 soap
         req:two
-button
-    *scrubb
-        name:Scrubb
-        desc:Click on the scrubb to get soap
-        on click:yield 1 soap
-        passive:increase wine yield of buttonBrewer by 1
-        req:50
 
 Achievements
     *TEMPLATE
