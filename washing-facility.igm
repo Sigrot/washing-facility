@@ -56,7 +56,6 @@ Achievements
 		on click:anim glow
 
     *soapAchiev1
-        name:a new journey!
-        desc:start your journey! and Achievements
+        name:A new journey!
+        desc:Start your journey! and Achievements
         req:1 soap
-        req:50 soap
