@@ -5,6 +5,10 @@ Let's make a game!
     version:2
     created:27/12/2022
     updated:27/12/2022
+
+Settings
+    building cost increase:120%
+    building cost refund:50%
     
 Resources
     *soap
@@ -24,7 +28,7 @@ Buttons
 Buildings
 	*TEMPLATE
 		on click:anim glow
- 
+
 	*washer
         name:Window washer|Window washers
         desc:the perfect washer for the perfect starter!<//><b>Effect:</b><.>this makes 0.1 soap in 1 second.
