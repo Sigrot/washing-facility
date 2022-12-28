@@ -31,19 +31,19 @@ Buildings
 
 	*washer
         name:Window washer|Window washers
-        desc:the perfect washer for the perfect starter!<//><b>Effect:</b><.>this makes 0.1 soap in 1 second.
+        desc:the perfect washer for the perfect starter!<//><b>Effect:</b><.>this makes 0.1 soap in 1 second
         cost:15 soap
         on tick:yield .1 soap
 
     *mop
         name:Mop
-        desc:sweep away!<//><b>Effect:</b><.>this makes 0.3 soap in 1 second.
+        desc:sweep away!<//><b>Effect:</b><.>this makes 0.3 soap in 1 second
         cost:75 soap
         on tick:yield .3 soap
 
     *robot
         name:Robot washer|Robot washers
-        desc:A robot that washes for you!<//><b>Effect:</b><.>this makes 1 soap in 1 second.
+        desc:A robot that washes for you!<//><b>Effect:</b><.>this makes 1 soap in 1 second
         cost:150 soap
         on tick:yield 1 soap
 
@@ -64,6 +64,10 @@ Upgrades
         cost:250 soap
         req:two
         passive:increase yield of scrubb by 3
+
+    *powerwasher
+        name:Powerwasher
+        desc:A powerwasher are better than a gardenhose!<//><b>Effect</b><.>increases robot washer by 2 per second
 
 Achievements
     *TEMPLATE
