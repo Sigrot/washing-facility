@@ -2,17 +2,22 @@ Let's make a game!
     name:Washing Facility
     desc:
     by:Psycho Apes
+    version:2
     created:27/12/2022
     updated:27/12/2022
+
+Settings
+    building cost increase:120%
+    building cost refund:50%
     
 Resources
     *soap
         name:Soap
         desc:It's just soap
+
     *holySoap
-        name:holy Soap|holy Soaps
+        name:holy Soap
         desc:It's just soap, But its holy!
-    
 
 Buttons
     *scrubb
@@ -23,18 +28,24 @@ Buttons
 Buildings
 	*TEMPLATE
 		on click:anim glow
- 
+
 	*washer
-        name:window washer
-        desc:the perfect washer for the perfect starter!<//><b>Effect:</b><.>this makes 1 soap every 10 seconds.
+        name:Window washer|Window washers
+        desc:the perfect washer for the perfect starter!<//><b>Effect:</b><.>this makes 0.1 soap in 1 second.
         cost:15 soap
         on tick:yield .1 soap
 
     *mop
-        name:mop
-        desc:sweep away!<//><b>Effect:</b><.>this makes 3 soap every 10 seconds.
+        name:Mop
+        desc:sweep away!<//><b>Effect:</b><.>this makes 0.3 soap in 1 second.
         cost:75 soap
         on tick:yield .3 soap
+
+    *robot
+        name:Robot washer|Robot washers
+        desc:A robot that washes for you!<//><b>Effect:</b><.>this makes 1 soap in 1 second.
+        cost:150 soap
+        on tick:yield 1 soap
 
 Upgrades
 	*TEMPLATE
