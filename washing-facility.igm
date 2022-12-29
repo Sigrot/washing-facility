@@ -84,3 +84,9 @@ CSS
     #game {
         background:grey;
     }
+    .thing {
+        border-radius: 50px;
+        background-color: red;
+        color: white;
+        font-weight: 800;
+    }
