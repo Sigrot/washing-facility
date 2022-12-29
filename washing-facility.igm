@@ -49,16 +49,20 @@ Buildings
 
     *washingmashine
         name:Washing mashine|Washing mashines
-        desc:if your too lazy to scrubb, this one is for you!
+        desc:if your too lazy to scrubb, this one is for you!<//><b>Effect:</b><.>makes 50 soap every second
         cost:500 soap
         on tick:yield 10 soap
 
     *washhouse
         name:Wash house|Wash houses
-        desc:a house, but for washing! what were you thinking?
+        desc:a house, but for washing! what were you thinking?<//><b>Effect:</b><.>makes 50 soap every second
         cost:1000 soap
         on tick:yield 50 soap
-
+    *washing factory
+        name:Washing factory|Washing factory
+        desc:a factory, but for washing! i dont really know how that works.<//><b>Effect:</b><.>makes 500 soap every second
+        cost:1000 soap
+        on tick:yield 500 soap
 Upgrades
 	*TEMPLATE
 		on click:anim glow
@@ -111,12 +115,20 @@ Achievements
         name:A new journey!
         desc:Start your journey! and Achievements
         req:1 soap
+    *soapAchiev2
+        name:begining to look like something...
+        desc:gain 1000 soap
+        req:1000 soap:earned
+    *soapAchiev3
+        name:just why.
+        desc:own 100 washer
+        req:100 washer
 
 Shinies
     *golden
         name:Golden soap
         desc:It's absolutely not a normal soap!
-        on click:yield (random(10,1000)) soap
+        on click:yield (random(1,10000)) soap
 
 CSS
     #game {
