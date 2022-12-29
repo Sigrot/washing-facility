@@ -68,7 +68,9 @@ Upgrades
     *powerwasher
         name:Powerwasher
         desc:A powerwasher are better than a gardenhose!<//><b>Effect</b><.>increases robot washer by 2 per second
-
+        cost:250 soap
+        req:300 soap
+        req:scrubber
 Achievements
     *TEMPLATE
 		on click:anim glow
