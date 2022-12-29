@@ -49,13 +49,13 @@ Buildings
 
     *washingmashine
         name:Washing mashine|Washing mashines
-        desc:
+        desc:if your too lazy to scrubb, this one is for you!
         cost:500 soap
         on tick:yield 10 soap
 
     *washhouse
         name:Wash house|Wash houses
-        desc:
+        desc:a house, but for washing! what were you thinking?
         cost:1000 soap
         on tick:yield 50 soap
 
@@ -86,7 +86,7 @@ Upgrades
 
     *flyer
         name:Washing flyer
-        desc:
+        desc:flyers are a great way to show someone your business! but dont be a bi*ch and give the same house like 11 flyers.<//><b>Effect</b><.>increase yield of scrubb by 10
         passive:increase yield of scrubb by 10
 
 Achievements
