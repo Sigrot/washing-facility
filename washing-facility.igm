@@ -89,6 +89,19 @@ Upgrades
         desc:flyers are a great way to show someone your business! but dont be a bi*ch and give the same house like 11 flyers.<//><b>Effect</b><.>increase yield of scrubb by 10
         cost:500 soap
         passive:increase yield of scrubb by 10
+        req:powerwasher
+
+    *powder
+        name:Premium washing powder
+        desc:
+        cost:1000 soap
+        req:flyer
+        passive:increase yield of scrubb by 10
+        passive:increase yield of washer by 10
+        passive:increase yield of mop by 10
+        passive:increase yield of robot by 10
+        passive:increase yield of washingmashine by 10
+        passive:increase yield of washhouse by 10
 
 Achievements
     *TEMPLATE
