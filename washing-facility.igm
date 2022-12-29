@@ -71,6 +71,7 @@ Upgrades
         cost:250 soap
         req:300 soap
         req:scrubber
+        
 Achievements
     *TEMPLATE
 		on click:anim glow
@@ -82,7 +83,7 @@ Achievements
 
 CSS
     #game {
-        background:grey;
+        background-color: yellow;
     }
     .thing {
         border-radius: 50px;
