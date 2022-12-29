@@ -88,7 +88,7 @@ Upgrades
         name:Washing flyer
         desc:flyers are a great way to show someone your business! but dont be a bi*ch and give the same house like 11 flyers.<//><b>Effect</b><.>increase yield of scrubb by 10
         cost:500 soap
-        passive:increase yield of scrubb by 10
+        passive:increase yield of washinghouse by 10
         req:powerwasher
 
     *powder
