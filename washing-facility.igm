@@ -84,6 +84,11 @@ Upgrades
         req:300 soap
         req:scrubber
 
+    *flyer
+        name:Washing flyer
+        desc:
+        passive:increase yield of scrubb by 10
+
 Achievements
     *TEMPLATE
 		on click:anim glow
