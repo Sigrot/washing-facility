@@ -47,6 +47,18 @@ Buildings
         cost:150 soap
         on tick:yield 1 soap
 
+    *washingmashine
+        name:Washing mashine|Washing mashines
+        desc:
+        cost:500 soap
+        on tick:yield 10 soap
+
+    *washhouse
+        name:Wash house|Wash houses
+        desc:
+        cost:1000 soap
+        on tick:yield 50 soap
+
 Upgrades
 	*TEMPLATE
 		on click:anim glow
@@ -71,7 +83,7 @@ Upgrades
         cost:250 soap
         req:300 soap
         req:scrubber
-        
+
 Achievements
     *TEMPLATE
 		on click:anim glow
@@ -80,6 +92,12 @@ Achievements
         name:A new journey!
         desc:Start your journey! and Achievements
         req:1 soap
+
+Shinies
+    *golden
+        name:Golden soap
+        desc:It's absolutely not a normal soap!
+        on click:yield (random(10,1000)) soap
 
 CSS
     #game {
